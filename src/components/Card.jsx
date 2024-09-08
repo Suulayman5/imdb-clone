@@ -11,7 +11,7 @@ const Card = ({result}) => {
             />
             <div className="p-2">
                 <p className="line-clamp-2 text-md">
-                    {result.oveeview}
+                    {result.overview}
                 </p>
                 <h2 className='text-lg font-bold truncate'>
                     {result.title || result.name}
